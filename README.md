@@ -30,6 +30,43 @@ Allow users to upload fish images.
 Predict and display the fish category.
 Provide model confidence scores.
 
+# Installation & Usage
+Ensure you have Python installed along with the required libraries:
+
+pip install tensorflow numpy matplotlib seaborn scikit-learn streamlit pillow
+
+# Running the Project
+Clone the repository:
+
+https://github.com/Gangadharan-S/Multiclass-Fish-Image-Classification/edit/main/README.md
+
+# Train the models (Optional if pre-trained models are available):
+python train_models.py
+
+Run the Streamlit app:
+streamlit run app.py
+
+Results & Findings
+Best Model: The model with the highest accuracy is selected as the best-performing model.
+Comparison Report: Provides insights on performance across different architectures.
+Confusion Matrix: Visual representation of model predictions.
+
+# Project Structure
+|-- dataset/               # Folder containing fish images categorized by species
+|-- models/                # Saved trained models (.h5 files)
+|-- train_models.py        # Script to train and evaluate models
+|-- app.py                 # Streamlit application script
+|-- README.md              # Project documentation
+
+
+
+
+
+
+
+
+
+
 
 
 
